@@ -1,0 +1,140 @@
+/* hero section */
+
+.hero{
+    background-image:url('../assets/images/bghero.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.hero__features .feature{
+    width:40%;
+}
+
+/* advantages section */
+
+.advantages__cards .card{
+    width:40%;
+    justify-content: space-evenly;
+}
+
+/* question section */
+
+.question header{
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+}
+
+.question__header{
+    width:50%;
+    min-width: 424px;
+    margin-left:calc(42% - 295px);
+}
+
+.question__header .content{
+    max-width: 350px;
+}
+
+.question__header--image{
+    width:80%;
+    height:100%;
+    max-width:480px;
+    top:40px;
+    left:calc(50% + 140px);
+}
+
+/* question answer about section */
+
+.question__answer{
+    margin-top:120px;
+    flex-direction: row-reverse;
+}
+
+.question__answer .header,
+.question__answer .box{
+    width:50%;
+}
+
+.question__answer .box{
+    margin-left:8px;
+}
+
+/* commodin section */
+
+.commodin .contact{
+    width:95%;
+    justify-content: space-evenly;
+}
+
+.contact__header{
+    width:60%;
+    gap:20px;
+}
+
+.contact__header .box{
+    width: auto;
+}
+
+.contact .button{
+    height: 40px;
+}
+
+/* section about */
+
+.about__card{
+    margin-right: calc(1vw + 5px);
+}
+
+.about__card h2,
+.about__card p,
+.about__card a:link{
+    margin-right: 0;
+    margin-left: 58px;
+}
+
+.about__card--img:nth-of-type(1){
+    left:-305px;
+    top:100px;
+    height: 400px;
+}
+
+.about__card--img:nth-of-type(2){
+    height: auto;
+    left:calc(-40vw + 20px);
+    bottom:-140px;
+}
+
+.about__card--icon{
+    display: none;
+}
+
+/* team section */
+
+.teams__card{
+    z-index:1;
+}
+
+.teams__box1{
+    position:relative;
+    margin-right: 8px;
+    top:180px;
+}
+
+.teams__box1--image{
+    position:absolute;
+    height:420px;
+    top:-20px;
+    top:-40px;
+}
+
+/* contact section */
+
+.get-touch .get-touch__cards .card{
+    width:48%;
+}
+
+/* get-in-touch-section */
+.get-in-touch-section .form .form__box:nth-of-type(1),
+.get-in-touch-section .form .form__box:nth-of-type(2){
+    width:45%;
+}

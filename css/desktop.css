@@ -1,0 +1,96 @@
+/* hero section */
+
+.hero__header{
+    width:20%;
+    align-self:flex-end;
+}
+
+.hero__features{
+    width:50% !important;
+}
+
+/* question section */
+.question .question__header{
+    margin-left: 80px;
+}
+
+/* question answer about section */
+.question__answer{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* question section */
+
+.about{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about__card{
+    margin-top:120px;
+    margin-left:auto;
+    margin-right: 150px;
+}
+
+.about__card--circle{
+    display:block;
+    z-index: -1;
+    top:-80px;
+    left:280px;
+}
+
+.about__card--icon{
+    display:block;
+}
+
+/* testimonial section */
+
+.testimonial{
+    margin-top:380px;
+}
+
+.testimonial .testimonial__box .content{
+    gap:40px;
+}
+
+.testimonial__box .content .content__box{
+    width:28%;
+}
+
+.testimonial__box .content .content__box .card{
+    height: 300px;
+}
+
+/* contact section */
+
+.get-touch .get-touch__cards .card{
+    width:23%;
+}
+
+/* get-in-touch-section */
+
+.get-in-touch-section{
+    justify-content: space-evenly;
+}
+
+.get-in-touch-section .content{
+    width:40%;
+}
+
+.get-in-touch-section .form{
+    width:45%;
+    margin-top:40px;
+}
+
+.box-teams{
+    height: 980px;
+}
+
+.get-in-touch-section .content .social{
+    display:block;
+}
+
+.get-in-touch-section .social{
+    display:none;
+}
